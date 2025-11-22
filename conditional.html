@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <script>
+//=== values and datatypes
+
+
+//conditional statements-if,if else ,if else if ,
+a = prompt("enter your name");
+if (a %2 ==0)
+    console.log("the number is even");
+
+    // tasks ---> if the person is entered into the dashboard ,he should be enter the "human" ,otherwise website is display the response you are are mot able to access
+
+    category = prompt("enter your identity");
+    if (category == "human"){
+     document.write(`you are the ${category} welcome to Dashboard`)
+    } 
+    else{
+       alert(`you are ${category} not allowed `) // console.log("you are not able to access the website");
+//task-2 if the user is entered password and confirm password if both conditions are true  automatically the response in the ui comes with you are logging in otherwise,try-again statment will appear
+    password = prompt("enter your password");
+    confirmPassword = prompt("confirm your password");
+    if (password === confirmPassword) {
+        document.write("You are logging in");
+    } else {
+        document.write("Try again");
+    }
+
+    }
+    </script>
+</head>
+<body>
+   
+</body>
+</html>

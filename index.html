@@ -5,22 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAVASCRIPT</title>
     <script>
+        //variables in javascript
+
+
         document.write("hello world");
         console.log("hello world");
-        alert("hello world");
-        <!-- global variable -->
+       
+       
+        //alert("hello world");
+        //global variable
         var a = 85
         var a = 50
         console.log(a);
-        /*multi-line comment*/
+        /*
         //local variables
+        */
         let b = 40;
         const c = 60;
         console.log(b);
         console.log(c);
+        //data types in javascript(5)
+        /*Number
+        string
+        bullean
+        nul
+        undefined
+        to check the type of the data -type()
+        primitive data types:- to  store the single ,small values
+        non-primitive data types:- to store the multiple values
+        */
+        //primitive examples
+        /*Number
+        string
+        bullean
+        null:- is an object
+        undefined
+        non-primitive example
+        arryas
+        objects
+        */
+        //c = null;
+       // console.log(typeof c);
+        d = 20
+        console.log(typeof d);
+        e="hello";
+        console.log(typeof e);
+        f = true;
+        console.log(typeof f);
+        g = undefined;
+        console.log(typeof g);
+        name="supriya"
+        console.log(typeof name);
+        objecta = null
+        console.log(objecta)
+//hoisting:- to declare the code at the topic 
+//ES6 atmascript:- it is new version of javascript
+
+//console.log(fullname)
+//fullname = "hello welcome to js"
+
+
+//non-primitive:- arrays, objects
+//array:-store the value in sequence of data it is a data type which has all primitive datatypes even undefined
+
+data = [1,"one",20,null,true]
+console.log(typeof data)
+//enscapulation, abstraction, inheritance, polymorphism these are object oriented but js is not a object oriented 
+//object:-instance of a class/real world entity/key value pair/ 
+// eg:-car:-charecterstics:-color,model,brand,engine,speed
+products={
+    title : "laptop",
+    config : "windows11",
+    price : 45000,
+    color: "silver" 
+}
+console.log(products)
+console.log(typeof products)
+
+
+/*sales data
+    //stored in the format of array 
+    //array--index--start from --0--*/
+sales=[23000,12344,21415,42736]
+console.log(...sales)//rest operator using triple dots
+//cosole.log(sales)//shows with index
+console.log(sales[2])//shows particular index value
+console.log(typeof sales)
+console.log(sales.slice(-1))//to show last index value
+ a=[23,34,53]
+//sum=a.map(data=>data * 2)
+//console.log(sum)
+discount=sales.map( a=>a*0.30) //map function 
+total = sales - discount
+console.log(discount)
     </script>
 </head>
 <body>
-    
+ </script>
 </body>
 </html>
