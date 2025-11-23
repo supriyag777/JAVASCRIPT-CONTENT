@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+//functions in javascript
+
+/*a = Number(prompt("enter the value of a"));
+b = Number(prompt("enter the value of b"));
+function add(){
+alert("the sum of a and b is: " + (a + b));
+}
+add();
+*/
+
+//lets create 3 buttons in html , when you click on first it should display the prompt and same of b as well,you are writing the function to calcuclate the same of a and b you added one more button"+"
+//when user click on + automatically display the result alert"
+function a(){
+    a = Number (prompt("enter the value of a"));
+    alert(`the entered value is:${a}`);
+}
+function b(){
+    b = Number (prompt("enter the value of b"));
+    alert(`the entered value b is: ${b}`);
+}
+function add(){
+    alert(`the sum of a and b is ${a+b}`);
+}
+    </script>
+</head>
+<body>
+    <button onclick="a()">a</button>
+    <button onclick="b()">b</button>
+    <button onclick="add()">+</button>
+</body>
+</html>

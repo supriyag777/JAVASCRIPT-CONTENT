@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <script>
+        
+        // Counter for increment
+        let count = 0;
+        function increment() {
+            count = count + 1;
+            document.getElementById("count").innerHTML = count;
+            document.getElementById("body").style.backgroundColor = "brown"
+            document.getElementById("body").style.color = "grey";
+
+        }
+        let countDec = 0;
+        function decrement() {
+            countDec = countDec - 1;
+            document.getElementById("countDec").innerHTML = countDec;
+            document.getElementById("body").style.backgroundColor = "black";
+            document.getElementById("body").style.color = "yellow";
+        }
+    </script>
+</head>
+<body>
+    <p id="count">0</p>
+    <button onclick="increment()">
+         increment the count
+    </button>
+    <p id="countDec">0</p>
+    <button onclick="decrement()">
+        decrement the count
+    </button>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="margin: 0px 40%;">
+    <form id="regform">
+        <p id="userdetails">
+            you enterd the user details
+        </p>
+        <div>
+            <input type="text" placeholder="enter your username" id="username"/>
+        </div>
+         <div>
+            <input type="email" placeholder="enter your email" id="email"/>
+        </div>
+         <div>
+            <input type="password" placeholder="enter your password" id="pass1"/>
+        </div>
+         <div>
+            <input type="password" placeholder="enter your confirm password" id="pass2"/>
+        </div>
+        <div>
+            <input type="submit" value="register" />
+        </div>
+
+</div>
+<script>
+    myformData = document.getElementById("regform")
+    regform.addEventListener("submit",function(event)
+    {
+        event.preventDefault()
+        var username =document.getElementbyId("username").value
+        var email =document.getElementbyId("email").value
+        var username =document.getElementbyId("pass1").value
+        var username =document.getElementbyId("pass2").value
+        var data={
+            username : username,
+            email : email,
+            pass1 : pass1,
+            pass2 : pass2,
+        }
+        console.log(data)
+        data2 = [
+            data.username,data.email,data.pass1,data.pass2,data
+        ]
+        document.get
+
+    });
+</script>
+
+    </form>
+</body>
+</html>
